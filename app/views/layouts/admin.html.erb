@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <title>Layouts And Templates in Rails Lab</title>
+  <head>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tag %>
+    <body>
+    <h1>Flatiron Widgets: Admin</h1>
+    
+    <%= yield %>
+    
+    </body>
+  </head>
+</html>
